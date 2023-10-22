@@ -1,0 +1,23 @@
+.advantages
+	min-height: 620px
+	background-color: #f3f3f3
+	padding: 60px 0 55px 0
+	.grid-container
+		margin-top: 40px
+		display: grid
+		grid-template: repeat(4, auto) / 1fr 1fr
+		row-gap: 40px
+		column-gap: 50px
+		grid-auto-flow: column
+		.grid-item
+			display: flex
+			&__img
+				margin-right: 20px
+			&__text
+				line-height: 22px
+				font-weight: 300
+				&__title
+					color: $main-color
+					font-size: 18px
+					font-weight: bold
+					margin-bottom: 5px
